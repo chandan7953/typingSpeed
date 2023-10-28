@@ -120,6 +120,7 @@ const TypingBox = () => {
 
         // retrieves all the child nodes (individual characters) of the current word from the wordsSpanRef array
         if (currentWordRef) {
+            
             //logic for space
             if (e.keyCode === 32) {//keycode for space - 32
 
